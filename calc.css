@@ -2,3 +2,14 @@
   margin: auto;
   margin-top: 50px;
 }
+.header{
+  text-align: center;
+  color: aqua;
+  background-color: black;
+  text-decoration: underline;
+  padding: 1rem;
+}
+
+.device{
+  border: ridge black 2rem;
+}
