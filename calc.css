@@ -1,13 +1,38 @@
-
 .header{
-  text-align: center;
-  color: aqua;
   background-color: black;
+  color: aqua;
+  display: flex;
+}
+.header h1{
+  margin-left: 36rem;
   text-decoration: underline;
-  padding: 1rem;
+}
+.end{
+  margin-left: 30rem;
 }
 
-.device{
-  border: ridge black 2rem;
-  margin-top: 1rem;
+.header a{
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: rgb(150, 50, 150);
+}
+.header a:hover{
+  background-color: thistle;
+  transition: 1s;
+  box-shadow: 3px 3px 3px 5px;
+}
+.pics{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-inline: 1rem;
+}
+.pics img:nth-child(n){
+  border: solid rgb(200, 50, 100) 10px;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+}
+.video{
+  margin-top: 4rem;
+  text-align: center;
 }
